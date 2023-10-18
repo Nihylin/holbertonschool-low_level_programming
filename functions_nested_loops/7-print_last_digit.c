@@ -24,5 +24,6 @@ int print_last_digit(int i)
 	* ce qui correspond au caractère ASCII '3'.
 	* Le caractère est ensuite affiché à l'aide de la fonction _putchar.
 	*/
+	_putchar ('\n');
 	return (i);
 }
