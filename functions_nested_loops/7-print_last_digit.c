@@ -11,12 +11,12 @@
 
 int print_last_digit(int i)
 {
+	i = i % 10;
 	if (i < 0)
 	{
-		i = i * -1;
+		i = -i;
 	}
-	i = i % 10;
-	_putchar (i + 48);
+	_putchar ('0' + i);
 	/*
 	* Cette ligne imprime le dernier chiffre de i.
 	* Cela fonctionne en ajoutant 48 (la valeur ASCII de '0') à i.
