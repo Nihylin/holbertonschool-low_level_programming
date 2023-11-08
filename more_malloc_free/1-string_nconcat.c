@@ -42,5 +42,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (i = 0 ; i < n ; i++)
 		s3[i + l1] = s2[i];
 
+	s3[l3 - 1] = '\O';
+
 	return (s3);
 }
