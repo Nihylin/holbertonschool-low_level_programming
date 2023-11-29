@@ -36,25 +36,15 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	if (*head == NULL)
 	{
-		/* Si la liste est vide, le nouveau nœud devient le premier nœud */
 		*head = newNode;
 	}
 	else
 	{
-		/* Initialisation d'un pointeur temporaire pour parcourir la liste */
 		temp = *head;
-
-		/* Boucle de recherche du dernier nœud */
 		while (temp->next != NULL)
 		{
-			/* Déplace temp vers le prochain nœud tant qu'il n'atteint pas la fin */
 			temp = temp->next;
 		}
-
-		/*
-		* Une fois le dernier nœud trouvé,
-		* le nouveau nœud est ajouté à la fin
-		*/
 		temp->next = newNode;
 	}
 
