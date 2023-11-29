@@ -10,3 +10,4 @@
 *-main.c
 /.devcontainer
 _putchar.c
+.DS_Store
