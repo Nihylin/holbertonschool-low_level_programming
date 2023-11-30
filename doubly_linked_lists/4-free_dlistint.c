@@ -2,7 +2,7 @@
 
 /**
  * free_dlistint - free linked list
- * @head: given linked list
+ * @head: pointer to the head node
  * Return: nothing (void)
 */
 
