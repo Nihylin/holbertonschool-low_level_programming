@@ -10,8 +10,7 @@
 int main(int argc, char *argv[])
 {
 	char buffer[1024];
-	int source, destination;
-	size_t bytesRead, bytesWritten;
+	int source, destination, bytesRead, bytesWritten;
 
 	if (argc != 3)
 	{
