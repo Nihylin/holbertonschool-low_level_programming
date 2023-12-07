@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		dprintf(STDERR_FILENO, "Usage: %s source destination\n", argv[0]);
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n", argv[0]);
 		exit(97);
 	}
 
@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
 	if (bytesRead < 0)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
-		exit(100);
+		exit(98);
 	}
 
 	if (close(destination) < 0)
