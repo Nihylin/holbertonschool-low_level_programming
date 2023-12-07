@@ -9,5 +9,6 @@
 
 *-main.c
 /.devcontainer
+/.vscode
 _putchar.c
 .DS_Store
