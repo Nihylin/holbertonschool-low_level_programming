@@ -1,0 +1,1 @@
+sa consom du hash ici ????? JAPEL LA POLICE
